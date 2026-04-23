@@ -17,7 +17,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.domain),
   title: {
-    default: "Rumi Slots Game Download APK v2026 [Latest Version] — Earn Real Money in Pakistan",
+    default: "Rumi Slot Game Pakistan | Free Download Official APK",
     template: `%s | ${siteConfig.name}`,
   },
   description: `${siteConfig.name} is Pakistan's fastest-growing real-money casino app with 100+ games, instant JazzCash and Easypaisa withdrawals, and a PKR 5,000 welcome bonus. Download free APK ${siteConfig.versionLabel}.`,
