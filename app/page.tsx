@@ -17,12 +17,17 @@ import ReviewCard from "@/components/ui/ReviewCard"
 import InternalLinksSection from "@/components/ui/InternalLinksSection"
 import FAQAccordion from "@/components/ui/FAQAccordion"
 
-export const metadata: Metadata = buildMetadata({
-  title: `Rumi Slots Game Download APK v2026 [Latest Version] — Earn Real Money in Pakistan`,
-  description: `Rumi Slot Game is Pakistan's fastest-growing real-money casino app with 100+ games, instant JazzCash and Easypaisa withdrawals, and a PKR 5,000 welcome bonus. Download free APK v3.0.0.`,
-  path: "/",
-  keywords: ["rumi slots game", "rumi slots apk v2026", "rumi slots download latest version", "earn real money pakistan casino app"],
-})
+const pageTitle = "Rumi Slot Game Pakistan | Free Download Official APK"
+
+export const metadata: Metadata = {
+  ...buildMetadata({
+    title: pageTitle,
+    description: `Rumi Slot Game is Pakistan's fastest-growing real-money casino app with 100+ games, instant JazzCash and Easypaisa withdrawals, and a PKR 5,000 welcome bonus. Download free APK v3.0.0.`,
+    path: "/",
+    keywords: ["rumi slots game", "rumi slots apk v2026", "rumi slots download latest version", "earn real money pakistan casino app"],
+  }),
+  title: { absolute: pageTitle },
+}
 
 export default function HomePage() {
   return (
